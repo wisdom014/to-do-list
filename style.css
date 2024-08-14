@@ -59,10 +59,6 @@ li {
  height: auto;
  font-size: 1.3rem;
 }
-.container {
-  border: 1px solid black;
-    border-radius: 5px;
-}
 
 @media screen and (min-width: 425px) {
 input[type="submit"] {
