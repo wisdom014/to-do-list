@@ -1,0 +1,54 @@
+body {
+ background-color: antiquewhite;
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+h1 {
+ text-align: center;
+}
+input[type="checkbox"] {
+ width: auto;
+ height: auto;
+ position: absolute;
+ left: 0px;
+ margin-top: 7.5px;
+}
+input[type="text"] {
+ width: 30rem;
+ height: 25px;
+ background-color: bisque;
+  color: black;
+  border-radius: 5px;
+}
+input {
+ text-align: center;
+ width: 7rem;
+  height: 28px;
+   background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button {
+  text-align: center;
+  float: right;
+  margin-top: 4px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+form {
+ text-align: center;
+}
+li {
+ text-decoration: none;
+ list-style: none;
+}
+#item-list {
+ background-color: white;
+ color: rgb(99, 93, 93);
+ height: auto;
+ font-size: 1.5rem;
+}
