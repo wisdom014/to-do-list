@@ -12,14 +12,18 @@ input[type="checkbox"] {
  height: auto;
  position: absolute;
  left: 0px;
- margin-top: 7.5px;
+ margin-top: 7px;
 }
 input[type="text"] {
- width: 30rem;
+ width: 70%;
  height: 25px;
  background-color: bisque;
   color: black;
   border-radius: 5px;
+}
+input[type="submit"] {
+  text-align: center;
+  display: none;
 }
 input {
  text-align: center;
@@ -33,7 +37,7 @@ input {
 button {
   text-align: center;
   float: right;
-  margin-top: 4px;
+  margin-top: 3px;
     background-color: black;
     color: white;
     border: 1px solid white;
@@ -45,10 +49,24 @@ form {
 li {
  text-decoration: none;
  list-style: none;
+ border: 1px solid black;
+ border-radius: 5px;
+ margin-bottom: 5px;
 }
 #item-list {
  background-color: white;
  color: rgb(99, 93, 93);
  height: auto;
- font-size: 1.5rem;
+ font-size: 1.3rem;
+}
+.container {
+  border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 425px) {
+input[type="submit"] {
+    text-align: center;
+    display: inline;
+  }
 }
