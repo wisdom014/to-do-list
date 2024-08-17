@@ -10,8 +10,8 @@
           <input type="checkbox" onchange="toggleDone(this)" />
           <span>${itemText}</span>
           <button onclick="deleteItem(this)">Delete</button>
-        </div>
-        `;
+          </div>
+          `;
         itemLists.appendChild(itemList);
         list.value = "";
       }
@@ -24,6 +24,10 @@
       }
 
       function deleteItem(button) {
-        const itemList = button.parentElement;
-        itemList.remove();
+        const itemList = button.parentElement.parentElement; // Get the li element
+        itemList.style.border = "0px"; // Set border to 0px
+        setTimeout(() => {
+            itemList.remove(); // Remove the item after a short delay
+            updateItemVisibility(); // Call updateItemVisibility() after removing an item
+        }, 300); // Adjust delay as needed
       }

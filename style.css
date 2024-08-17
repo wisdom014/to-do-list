@@ -1,8 +1,11 @@
 body {
- background-color: antiquewhite;
-  margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+background-color: antiquewhite;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+display: inline;
+width: 100dvw;
+height: 100dvh;
 }
 h1 {
  text-align: center;
@@ -11,11 +14,11 @@ input[type="checkbox"] {
  width: auto;
  height: auto;
  position: absolute;
- left: 0px;
+ left: 5px;
  margin-top: 7px;
 }
 input[type="text"] {
- width: 70%;
+ width: 70dvw;
  height: 25px;
  background-color: bisque;
   color: black;
@@ -58,6 +61,10 @@ li {
  color: rgb(99, 93, 93);
  height: auto;
  font-size: 1.3rem;
+ width: 100%;
+}
+#item-lists {
+  overflow-wrap: break-word;
 }
 
 @media screen and (min-width: 425px) {
